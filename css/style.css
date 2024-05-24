@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&display=swap');
+
+
+body {
+  color: aliceblue;
+  background-color:rgb(54, 54, 54);
+  margin: 0;
+  padding: 0;
+}
+.one{
+ 
+  background: url(../img/bg.jpg) no-repeat center/80%;
+  text-align: center;
+  background-size: 1920px;
+  display: block;
+}
+.quote{
+ 
+  display: inline-block;
+  position: absolute;
+  left: 140px;
+  top: 300px;
+  width: 80%;;
+}
+.quote p{
+ 
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:50px;
+}
+.two{
+  background-color: rgb(0, 190, 127);
+  background: url(../img/bg2.jpg) no-repeat center/80%;
+  text-align: center;
+  background-size: 1920px;
+  display: block;
+}
+.three{
+  background-color: rgb(0, 190, 127);
+  background: url(../img/bg3.jpg) no-repeat center/80%;
+  text-align: center;
+  background-size: 1920px;
+  display: block;
+  opacity: 80%;
+}
+.join{
+  margin-top: 1000px 2px;
+  padding :400px 0;
+  width: 100%;
+  font-size: 20px;
+}
+.about{
+  margin-top: 1000px 2px;
+  padding :400px 0;
+  width: 100%;
+  font-size: 20px;
+}
+.left {
+  
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+.AboutGym{
+
+  display: inline-block;
+  position: absolute;
+  position: absolute;
+  left: 70px;
+  top: 1300px;
+  width: 30%;
+  height: 60%;
+  text-overflow: clip;
+}
+.AboutGym p{
+  color: grey;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:50px;
+}
+.left img {
+  width: 100px;
+}
+.left div {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: 0px;
+}
+.mid {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  width: 38%;
+  display: block;
+  margin: 20px auto;
+  justify-content: center;
+}
+.container{
+  margin-top: 1000px;
+  padding :2px 2px;
+  width: 33%;
+}
+.right {
+  
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  font-size: 25px;
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+navbar li a.active {
+  color: #f3f3;
+  text-decoration: underline;
+}
+.btn {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 9px;
+  color: white;
+  background-color: grey;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 2px solid gray;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: black;
+  text-decoration: underline;
+}
+#contact{
+	padding: 30px 0px;
+}
+
+.contact-row{
+  display: inline-block;
+  position: absolute;
+  width: 95%;
+  left: 50px;
+  size: 50%;
+  top: 2050px;
+  height: 70%;
+	justify-content: center;
+	align-items: center;
+}
+.contact-left-col{
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  min-width:30%;
+  min-height:60%;
+	padding-top: 50px;
+}
+.contact-right-col{
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+  min-height: 100%;
+  right:100px;
+
+}
+.contact-right-col i{
+	font-size: 20px;
+	padding: 10px;
+	background:#74b9ff;
+	color: white; 
+}
+.contact-right-col p{
+  font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.form{
+	width: 100%;
+  height:100px;
+	margin:auto;
+	text-align: center;
+}
+.form input[type="text"]{
+	min-height: 10%;
+	padding: 26px;
+	margin-bottom: 10px;
+}
+textarea{
+
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.c_btn{
+	background: black;
+	color: white;
+	padding: 10px;
+	width: 50%;
+	border:none;
+  cursor: pointer;
+}
+.c_btn:hover{
+  background:white ;
+  color: black;
+}
+
+
